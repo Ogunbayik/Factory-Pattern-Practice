@@ -1,29 +1,29 @@
 
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+using Zenject;
+
 public class SpellFactory 
 {
-    private readonly FireSpell.Factory _fireSpellFactory;
-    private readonly IceSpell.Factory _iceSpellFactory;
-    private readonly LightningSpell.Factory _lightningSpellFactory;
+    public Dictionary<SpellType, Func<ISpell>> _spellMap;
 
     public SpellFactory(FireSpell.Factory fireSpellFactory, IceSpell.Factory iceSpellFactory, LightningSpell.Factory lightningSpellFactory)
     {
-        _fireSpellFactory = fireSpellFactory;
-        _iceSpellFactory = iceSpellFactory;
-        _lightningSpellFactory = lightningSpellFactory;
+        _spellMap = new Dictionary<SpellType, Func<ISpell>>();
+
+        _spellMap.Add(SpellType.Fire, () => fireSpellFactory.Create());
+        _spellMap.Add(SpellType.Ice, () => iceSpellFactory.Create());
+        _spellMap.Add(SpellType.Lightning, () => lightningSpellFactory.Create());
     }
 
     public ISpell Create(SpellType type)
     {
-        switch(type)
+        if (_spellMap.TryGetValue(type, out Func<ISpell> createAction))
         {
-            case SpellType.Fire:
-                return _fireSpellFactory.Create();
-            case SpellType.Ice:
-                return _iceSpellFactory.Create();
-            case SpellType.Lightning:
-                 return _lightningSpellFactory.Create();
-            default:
-                throw new System.ArgumentException("Tanýmsýz büyü tipi!");
+            return createAction();
         }
+
+        throw new ArgumentException($"SpellFactory: '{type}' is undefined!");
     }
 }

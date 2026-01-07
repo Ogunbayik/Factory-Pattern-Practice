@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\factory-pattern-practice\\assets\\scripts\\abstract-factory-pattern\\wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abstract-factory-pattern\\wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\factory-pattern-practice\\assets\\installers\\factoryinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|solutionrelative:assets\\installers\\factoryinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\factory-pattern-practice\\assets\\scripts\\abstract-factory-pattern\\spellfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\assets\\scripts\\abstract-factory-pattern\\spellfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abstract-factory-pattern\\spellfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\assets\\scripts\\abstract-factory-pattern\\lightningspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abstract-factory-pattern\\lightningspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|c:\\users\\ogun\\unityprojects\\factory-pattern-practice\\assets\\scripts\\abstract-factory-pattern\\wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abstract-factory-pattern\\wizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\assets\\scripts\\abstract-factory-pattern\\icespell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\assets\\scripts\\abstract-factory-pattern\\firespell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abstract-factory-pattern\\firespell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\assets\\scripts\\abstract-factory-pattern\\lightningspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1758C2A-7C8C-685B-A876-DD1060452834}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abstract-factory-pattern\\lightningspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +34,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Wizard.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\Assets\\Scripts\\Abstract-Factory-Pattern\\Wizard.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Abstract-Factory-Pattern\\Wizard.cs",
               "ToolTip": "C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\Assets\\Scripts\\Abstract-Factory-Pattern\\Wizard.cs",
               "RelativeToolTip": "Assets\\Scripts\\Abstract-Factory-Pattern\\Wizard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T13:25:56.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FactoryInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\Assets\\Installers\\FactoryInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Installers\\FactoryInstaller.cs",
+              "ToolTip": "C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\Assets\\Installers\\FactoryInstaller.cs",
+              "RelativeToolTip": "Assets\\Installers\\FactoryInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T13:28:54.919Z",
               "EditorCaption": ""
             },
             {
@@ -53,14 +70,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Abstract-Factory-Pattern\\SpellFactory.cs",
               "ToolTip": "C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\Assets\\Scripts\\Abstract-Factory-Pattern\\SpellFactory.cs",
               "RelativeToolTip": "Assets\\Scripts\\Abstract-Factory-Pattern\\SpellFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T13:19:30.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "LightningSpell.cs",
               "DocumentMoniker": "C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\Assets\\Scripts\\Abstract-Factory-Pattern\\LightningSpell.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Abstract-Factory-Pattern\\LightningSpell.cs",
@@ -68,7 +85,8 @@
               "RelativeToolTip": "Assets\\Scripts\\Abstract-Factory-Pattern\\LightningSpell.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T13:10:12.95Z"
+              "WhenOpened": "2026-01-07T13:10:12.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -78,9 +96,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Abstract-Factory-Pattern\\FireSpell.cs",
               "ToolTip": "C:\\Users\\ogun\\UnityProjects\\Factory-Pattern-Practice\\Assets\\Scripts\\Abstract-Factory-Pattern\\FireSpell.cs",
               "RelativeToolTip": "Assets\\Scripts\\Abstract-Factory-Pattern\\FireSpell.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T13:10:17.472Z"
+              "WhenOpened": "2026-01-07T13:10:17.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -92,7 +111,8 @@
               "RelativeToolTip": "Assets\\Scripts\\Abstract-Factory-Pattern\\IceSpell.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T13:10:15.289Z"
+              "WhenOpened": "2026-01-07T13:10:15.289Z",
+              "EditorCaption": ""
             }
           ]
         }
